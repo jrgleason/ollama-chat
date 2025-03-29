@@ -4,7 +4,7 @@ import Header from './header/Header';
 import MessageList from './chat/messages/MessageList';
 import ChatInput from './chat/input/ChatInput';
 
-const IP_ADDRESS = "10.0.0.20";
+const IP_ADDRESS = "127.0.0.1";
 
 function OllamaChat() {
     const [messages, setMessages] = useState([]);
